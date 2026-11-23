@@ -1,10 +1,118 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Website</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      background: #111827;
+      color: #38bdf8;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .hero {
+      min-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 25px;
+      background: linear-gradient(135deg, #0f172a, #1e3a8a, #312e81);
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    h1 span {
+      color: #38bdf8;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.7;
+      color: #d1d5db;
+      max-width: 500px;
+    }
+
+    .btn {
+      margin-top: 30px;
+      padding: 14px 28px;
+      background: #38bdf8;
+      color: #0f172a;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+
+    .about {
+      padding: 40px 20px;
+      text-align: center;
+      background: #111827;
+    }
+
+    .about h2 {
+      color: #38bdf8;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #9ca3af;
+      background: #020617;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Hello World!</h1>
-    <p>My first college project.</p>
+
+  <header>
+    MY FIRST WEBSITE
+  </header>
+
+  <section class="hero">
+    <h1>Hello <span>World!</span></h1>
+
+    <p>
+      Welcome to my first website.
+      This is my first step into the world of web development
+      and technology.
+    </p>
+
+    <a href="#about" class="btn">Explore More</a>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About My Project</h2>
+    <p>
+      I am a beginner learning HTML, CSS and web development.
+      This website is created as my first college project.
+    </p>
+  </section>
+
+  <footer>
+    © 2026 | My First College Project
+  </footer>
+
 </body>
 </html>
